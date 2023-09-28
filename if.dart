@@ -74,8 +74,12 @@ else{
 
 //Is it a weekend or a weekday?
 /*void main(){
+  
   stdout.write('Enter Day\n');
+
   String? Day= stdin.readLineSync();
+
+
   if(Day=='Saturday'|| Day=='Sunday' ){
     print('it is weekend');
   }
@@ -83,5 +87,37 @@ else{
     print('It is a weekday');
   }
 }*/
+/*
+void main(){
+String day = "Sunday";
+if (day == "Saturday" || day == "Sunday") {
+  print("It's the weekend!");
+} else {
+  print("It's a weekday.");
+}
+}*/
+
+//Is the user's grade an 'A', 'B', 'C', 'D', or 'F'?
+/*void main(){
+  print("Enter Your grade");
+String? grade= stdin.readLineSync();
+
+if (grade=='A'){
+  print("Excellent");
+}else if(grade=='B'){
+  print('Good');
+}
+else if(grade=='C'){
+  print("Average");
+}else if(grade=='D'){
+  print('Below Average');
+}
+else{
+  print('Failed');
+}}*/
+
+
+
+
 
 
