@@ -37,7 +37,7 @@ import 'dart:io';
   }
 }*/
 //roblem 3: Write a Dart function that checks if a given number is either positive or even.
-
+/*
 void main(){
   stdout.writeln("Enter number:");
   int num=int.parse(stdin.readLineSync()!);
@@ -48,6 +48,6 @@ void main(){
   else{
     print("negaitve");
   }
-}
+}*/
 
 
