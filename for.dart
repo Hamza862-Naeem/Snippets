@@ -12,12 +12,11 @@ void main(){
 // for(int i =0; i<10; i--){
 //   print('Hello world ${i=1}');
 //}
-for(int i= 0; i<10; i++){
-String hi ="hello World";
-print(hi.substring(i,9));
-print("Hello World ${i+1}");
+ String a = 'Scooby';
+ for (int i =0; i<a.length; i++){
 
-}
+print(a[i]);
+ }
 
 
 
