@@ -12,12 +12,9 @@ void main(){
 // for(int i =0; i<10; i--){
 //   print('Hello world ${i=1}');
 //}
- String a = 'Scooby';
- for (int i =0; i<a.length; i++){
-
-print(a[i]);
- }
-
+//  
+   
+   
 
 
 

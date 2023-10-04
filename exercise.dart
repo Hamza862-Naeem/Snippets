@@ -25,3 +25,31 @@ import'dart:io';
     print("destination zone is invalid");
   }
 }*/
+
+//HR form using dart
+
+
+void main() {
+  print('Welcome to the HR Form\n');
+  final employeeData = <String, dynamic>{};
+
+  // Collect employee information
+  print('Enter Employee Details:');
+  employeeData['name'] = getInput('Name: ');
+  employeeData['age'] = int.tryParse(getInput('Age: '));
+  employeeData['position'] = getInput('Position: ');
+  employeeData['salary'] = double.tryParse(getInput('Salary: '));
+
+  // Display collected information
+  print('\nEmployee Information:');
+  employeeData.forEach((key, value) {
+    print('$key: $value');
+  });
+
+  print('\nThank you for submitting the HR form!');
+}
+
+String getInput(String prompt) {
+  stdout.write(prompt);
+  return stdin.readLineSync()!;
+}
