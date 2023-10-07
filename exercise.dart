@@ -28,7 +28,7 @@ import'dart:io';
 
 //HR form using dart
 
-
+/*
 void main() {
   print('Welcome to the HR Form\n');
   final employeeData = <String, dynamic>{};
@@ -52,4 +52,33 @@ void main() {
 String getInput(String prompt) {
   stdout.write(prompt);
   return stdin.readLineSync()!;
+}*/
+import 'dart:io';
+
+void main() {
+  print('Welcome to the Console Form');
+  
+  // Create variables to store user input
+  String name;
+  int age;
+  String email;
+
+  // Prompt the user for their name
+  stdout.write('Enter your name: ');
+  name = stdin.readLineSync()!;
+
+  // Prompt the user for their age
+  stdout.write('Enter your age: ');
+  age = int.parse(stdin.readLineSync()!);
+
+  // Prompt the user for their email
+  stdout.write('Enter your email: ');
+  email = stdin.readLineSync()!;
+
+  // Display the collected information
+  print('\nThank you for filling out the form!');
+  print('Name: $name');
+  print('Age: $age');
+  print('Email: $email');
 }
+
