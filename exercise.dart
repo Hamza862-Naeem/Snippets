@@ -55,7 +55,7 @@ String getInput(String prompt) {
 }*/
 import 'dart:io';
 
-void main() {
+  /*void main() {
   print('Welcome to the Console Form');
   
   // Create variables to store user input
@@ -80,5 +80,9 @@ void main() {
   print('Name: $name');
   print('Age: $age');
   print('Email: $email');
+}*/
+
+ void main() {
+ 
 }
 
