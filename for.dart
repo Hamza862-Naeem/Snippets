@@ -2,7 +2,7 @@
 // for(initialization'; condition; increment/decrement){
 // print(i);
 // }
-void main(){
+/*void main(){
 //   for(int i=1;i<=2;i++){
 // print("hello world");
 //   }
@@ -13,19 +13,23 @@ void main(){
 //   print('Hello world ${i=1}');
 //}
 //  
-   
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-} 
+} */
+/*void main(){
+for (int x=0; x<=10;x++){
+  if(x==5){
+    break;
+  }
+  print(x);
+}
+}*/
+/*void main(){
+  int x=1;while(x<=10){
+    print(x);
+  }
+}*/
+void main(){
+int x=1;
+do{
+  print(x);
+  x++;
+}while(x<=10);}

@@ -60,3 +60,49 @@ void main(){
 
   home.doorlock();
 }*/
+/*
+  void main(){
+  var house=House(5,8,"Cementry",'Tile');
+  house.printData();
+
+  var house2=House(6,3,"Something else",'Brick');
+   //house2.nrOfDoors= 20;
+   print(house2.nrOfDoors);
+}
+class House{
+  int nrOfDoors=0;
+  int nrOfWindows=5;
+  String typeOfWalls="Plaster";
+  String typeOfRoofs="Brick";
+
+  House(this.nrOfDoors,this.nrOfWindows,typesOfWalls,typeOfRoofs);
+
+void printData(){
+  print("No of Doors in house: ${this.nrOfDoors}");
+    print("No of Windows in house: ${this.nrOfWindows}");
+      print("type of Walls in house: ${this.typeOfWalls}");
+        print("Type of Roofs in house: ${this.typeOfRoofs}");
+}
+}*/
+
+
+/*class Vehicle{
+  int max_speed=100;
+  double mileage=12.2;
+  vehicle(int max_speed,double mileage){
+    this.max_speed=max_speed;
+    this.mileage=mileage;
+  }
+}
+void main(){
+   var car=Vehicle();
+  print(car.max_speed);
+ print(car.mileage);
+
+}*/
+//class Vehicle{}
+ 
+
+
+ 
+
