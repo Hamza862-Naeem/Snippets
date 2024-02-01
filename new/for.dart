@@ -22,14 +22,8 @@ for (int x=0; x<=10;x++){
   print(x);
 }
 }*/
-/*void main(){
+void main(){
   int x=1;while(x<=10){
     print(x);
   }
-}*/
-void main(){
-int x=1;
-do{
-  print(x);
-  x++;
-}while(x<=10);}
+}
