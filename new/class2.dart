@@ -41,7 +41,7 @@ void printData(){
         print("Type of Roofs in house: ${this._typeOfRoofs}");
 }
 }*/
-class BankAccount{
+/*class BankAccount{
 double _balance;
 
 
@@ -67,4 +67,4 @@ void withDraw(double amount){
   print(account.balance);
   account.withDraw(5000);
   print(account.balance);
- }
+ }*/
